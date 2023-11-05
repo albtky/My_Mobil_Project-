@@ -10,12 +10,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        // setOnliyClick METHOTUNU KULLANMA ŞEKLİ **********************
+
         var btn = findViewById<View>(R.id.button2)
+
+
+
+        var at = animals()
+        at.ayakSayısı=4
+        at.tür="memeli"
+        at.beslenme = "otobur"
+        // setOnliyClick METHOTUNU KULLANMA ŞEKLİ **********************
+        // ÜSTTE btn değişkeni View türüyle oluşturulduktan sonra hemen alttaki gib setOnClickListener yolunu kullanabiliriz
+
         btn.setOnClickListener{
             var d = findViewById<TextView>(R.id.result)
-            d.text="SONUC: ${ikincininyanı(40,50)}"
+            d.text="Hayvanın bilgileri : " +
+                    "ayak sayısı : ${at.ayakSayısı}\ntürü : ${at.tür}\nBeslenme şekli: ${at.beslenme}"
         }
+
+
 
     }
 
