@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43c24731-ddab-4973-a3a0-a8f42bfe4ccf" name="Changes" comment="" />
+    <list default="true" id="43c24731-ddab-4973-a3a0-a8f42bfe4ccf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Constructer/app/src/main/java/com/alperen/constructer/SuperKahramanlar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Constructer/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constructer/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Constructer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constructer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Constructer/app/src/main/java/com/alperen/constructer/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Constructer/app/src/main/java/com/alperen/constructer/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Constructer/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constructer/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +54,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/lenovo/Desktop/My_Mobil_Project-/Constructer"
+    "last_opened_file_path": "C:/Users/lenovo/Desktop/My_Mobil_Project-/setOnlyClikcListener",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">

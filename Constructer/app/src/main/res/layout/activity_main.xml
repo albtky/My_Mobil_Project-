@@ -6,13 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_width="359dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="İsminizi giriniz"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/AgeText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/AgeText"
+        android:layout_width="359dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Yaşınızı giriniz"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/ageText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameText" />
+
+    <EditText
+        android:id="@+id/ageText"
+        android:layout_width="359dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="Mesleğinizi giriniz"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/Create"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AgeText" />
+
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="229dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="350dp"
+        android:text="Karakteri Oluştur"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageText"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

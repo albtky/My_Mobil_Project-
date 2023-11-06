@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.alperen.constructer'
+    namespace 'com.alperen.ui_first'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.alperen.constructer"
+        applicationId "com.alperen.ui_first"
         minSdk 24
         targetSdk 34
         versionCode 1
